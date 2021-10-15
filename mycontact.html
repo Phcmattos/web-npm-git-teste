@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Contact - World's Biggest University</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="icon" href="img/favicon.png">
+    <script src="https://kit.fontawesome.com/5c3acd9909.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+
+    <header class="pos-header">
+        <nav>
+            <a href="myindex.html"><img src="img/logo.png" width="155px" alt="Eduford logo"></a>
+
+            <i class="fas fa-bars" onclick="openMenu()"></i>
+            <!-- Não precisa adicionar o prefixo "fas", sendo apenas ".fa-bars" -->
+
+            <!-- Barra lateral de Navegação -->
+            
+            <div class="nav-menu" id="navmenu">
+                <i class="fas fa-times" onclick="closeMenu()"></i>
+                <ul>
+                    <li><a href="myindex.html">HOME</a></li>
+                    <li><a href="myabout.html">ABOUT</a></li>
+                    <li><a href="mycourses.html">COURSES</a></li>
+                    <li><a href="myblog.html">BLOG</a></li>
+                    <li><a href="mycontact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <h1 class="tittle">Contact Us</h1>
+    </header>
+
+    <!-- Conteudo principal -->
+
+    <main>
+        <!-- Localização -->
+
+        <section class="place">
+            <iframe title="Building location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d274075.5103984787!2d-74.12272288456936!3d40.626900551995824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbr!4v1631109481647!5m2!1sen!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <!-- Formas de Contato -->
+
+        <section class="parallel">
+
+            <!-- Contato -->
+
+            <div class="cto-ways">
+                <div class="blocks">
+                    <i class="fas fa-home"></i>
+                    <p><span>Road XYZ, Buildings ABC</span><br>New York, USA</p>
+                </div>
+                <div class="blocks">
+                    <i class="fas fa-phone"></i>
+                    <p><span>+1 123-45-6789</span><br>Monday to Friday, from 9am to 6pm</p>
+                </div>
+                <div class="blocks">
+                    <i class="far fa-envelope"></i>
+                    <p><span>Eduform@gmail.com</span><br>Contact e-mail</p>
+                </div>
+            </div>
+
+            <!-- Formulário de Contato -->
+
+            <form class="cto-form" action="">
+                <input type="text" placeholder="Your name">
+                <input type="email" placeholder="Your email">
+                <input type="text" placeholder="Subject">
+                <textarea placeholder="Message"></textarea>
+                <input type="button" value="Send">
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu iaculis urna. Mauris lacus quam,
+            bibendum id tincidunt a, euismod non mi.<br> Fusce non dolor sit amet metus mattis faucibus vitae
+            scelerisque massa. Etiam lacinia bibendum metus.</p>
+        <div>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+        <p>made by Pedro Mattos</p>
+    </footer>
+
+    <!-- Script -->
+
+    <script src="js/functions.js"></script>
+
+    <!-- Note: O script estava correndo cedo demais -->
+
+</body>
+
+</html>

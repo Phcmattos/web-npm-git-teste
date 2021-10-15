@@ -1,0 +1,28 @@
+{
+  "name": "eduford",
+  "version": "1.0.0",
+  "description": "pacote para website eduford",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "echo Lets begin",
+    "start": "code",
+    "poststart": "echo Go live && live-server"
+  },
+  "keywords": [
+    "website",
+    "npm",
+    "git",
+    "test"
+  ],
+  "author": "Pedro Mattos",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0",
+    "live-server": "^1.2.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.2"
+  }
+}

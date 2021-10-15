@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>About - World's Biggest University</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="icon" href="img/favicon.png">
+    <script src="https://kit.fontawesome.com/5c3acd9909.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Header inferior -->
+
+    <header class="pos-header">
+        <nav>
+            <a href="myindex.html"><img src="img/logo.png" width="155px" alt="Eduford logo"></a>
+
+            <i class="fas fa-bars" onclick="openMenu()"></i>
+            <!-- Não precisa adicionar o prefixo "fas", sendo apenas ".fa-bars" -->
+
+            <div class="nav-menu" id="navmenu">
+                <i class="fas fa-times" onclick="closeMenu()"></i>
+                <ul>
+                    <li><a href="myindex.html">HOME</a></li>
+                    <li><a href="myabout.html">ABOUT</a></li>
+                    <li><a href="mycourses.html">COURSES</a></li>
+                    <li><a href="myblog.html">BLOG</a></li>
+                    <li><a href="mycontact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <h1 class="tittle">About Us</h1>
+    </header>
+
+    <!-- Main inferior -->
+
+    <main class="submain">
+        <div class="cont-block">
+            <h2>We are World's Biggest University</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at odio justo. Morbi dolor elit,
+                tincidunt pretium neque eget, consequat elementum nisl. Vestibulum cursus lorem eu lacus sagittis,
+                pretium cursus nisl placerat. Aenean eget aliquet lacus, vel ullamcorper enim. Orci varius natoque
+                penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            </p>
+            <a href="#">See more</a>
+        </div>
+
+        <div class="box"><img src="img/about.jpg" alt="Meeting"></div>
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu iaculis urna. Mauris lacus quam,
+            bibendum id tincidunt a, euismod non mi.<br> Fusce non dolor sit amet metus mattis faucibus vitae
+            scelerisque massa. Etiam lacinia bibendum metus.</p>
+        <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+        <p>made by Pedro Mattos</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="js/functions.js"></script>
+
+</body>
+
+</html>
